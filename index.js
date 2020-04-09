@@ -3,8 +3,11 @@ $( document ).ready(function() {
 });
 
 function whatsapp() {
-		amplitude.getInstance().logEvent('WhatsApp');
-	}
-	function facebook() {
-		amplitude.getInstance().logEvent('Facebook');
-	}
+	amplitude.getInstance().logEvent('WhatsApp');
+}
+function facebook() {
+	amplitude.getInstance().logEvent('Facebook');
+}
+function email() {
+	amplitude.getInstance().logEvent('E-mail');
+}
