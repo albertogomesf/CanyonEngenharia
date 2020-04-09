@@ -13,7 +13,7 @@ body{
     background-attachment: fixed;
     background-color: var(--bgColor);
     background-image: url('bgimage.png');
-    background-position: center;
+    background-position: center bottom;
     background-image: url('bgimage.png'), linear-gradient(black, #333333);
 }
 
